@@ -33,7 +33,7 @@ ReleaseDate: 2026-09-27
 Installers:
   # arm64 는 내지 않는다. 윈도우 빌드는 x64 하나뿐이다(맥이 arm64 하나뿐인 것과 반대).
   - Architecture: x64
-    InstallerUrl: https://download.creallo.com/CrealloAtlas-Setup-1.9.1.exe
+    InstallerUrl: https://atlas.creallo.com/download/atlas/win/1.9.1
     InstallerSha256: 0A26FBF2D410CF198C2D365597ADAD54E0D929EDD7A4FBC4DAAB1A49C30CFF48
 
 ManifestType: installer
