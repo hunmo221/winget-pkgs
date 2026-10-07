@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
 PackageIdentifier: Creallo.Atlas
-PackageVersion: 1.11.3
+PackageVersion: 1.11.4
 
 # Inno Setup 이다(release/windows/creallo.iss). winget 은 형식을 알면 조용히 깔 때
 # 쓰는 스위치를 스스로 넣으므로 InstallerSwitches 를 적지 않는다.
@@ -33,8 +33,8 @@ ReleaseDate: 2026-10-07
 Installers:
   # arm64 는 내지 않는다. 윈도우 빌드는 x64 하나뿐이다(맥이 arm64 하나뿐인 것과 반대).
   - Architecture: x64
-    InstallerUrl: https://atlas.creallo.com/download/atlas/win/1.11.3
-    InstallerSha256: 290CFCB165087FA5285BC1D9F1C6BA57783CB5E9A8BD58B31825BB7F26BE9C18
+    InstallerUrl: https://atlas.creallo.com/download/atlas/win/1.11.4
+    InstallerSha256: 420EE3B92B273E5BFF571FC37D1B14DEC14E242FBD301A65A2814D4FF3FA263E
 
 ManifestType: installer
 ManifestVersion: 1.6.0
